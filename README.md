@@ -45,26 +45,6 @@ The tab shows **Request URL** (with an orange **[SUSPICIOUS ENDPOINT]** prefix f
 - On automatic analysis failure, the tab is not overwritten; a short line is printed to Burp’s extension **Output** (no API key or full error body).
 - History is saved as JSONL at `~/.ai_bug_hunter/analysis_history.jsonl` and also shown in the History panel.
 
-## Share on GitHub (for other hunters)
-
-1. Create a new GitHub repository (for example `ai-bug-hunter-burp`).
-2. From this folder, run:
-
-```bash
-git init
-git add .
-git commit -m "Initial release: AI Bug Hunter Burp extension"
-git branch -M main
-git remote add origin https://github.com/<your-username>/<repo-name>.git
-git push -u origin main
-```
-
-3. Add a short release note in GitHub:
-   - what the extension does
-   - how to load in Burp
-   - required Jython + API key
-   - legal/scope warning
-
 ## Collaboration suggestions
 
 - Ask users to open issues with:
@@ -86,3 +66,5 @@ git push -u origin main
 ## Legal / safety
 
 Use only on systems you are authorized to test. The extension suggests **non-destructive** test ideas; you are responsible for compliance with program rules and applicable law.
+
+
